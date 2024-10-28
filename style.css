@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* header styling */
+.header-wraper {
+  background-color: black;
+  color: white;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.header-wraper ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  list-style: none;
+}
+.internal-wraper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header-wraper .header-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header-wraper .header-links ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-wraper .header-links ul li:hover {
+  opacity: 1;
+}
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+.header-wraper .header-links ul li .logo-link {
+  padding: 12px 0 10px;
+}
+.header-wraper .header-links ul li .search-link {
+  padding: 14px 0 8px;
+}
+.header-wraper .header-links ul li .cart-link {
+  padding: 12px 0 10px;
+}
+
+/* footer styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+
+.text-wraper {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.text-wraper a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.text-wraper a:hover {
+  text-decoration: underline;
+}
+
+.footer-links ul li {
+  padding: 5px 0px;
+  font-size: 0.6em;
+  padding: 5px 0px;
+}
+.footer-links h3 {
+  font-size: 12px;
+  font-weight: 600px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footer-links ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.my-apple {
+  font-size: 13px;
+  border-bottom: solid 1px #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.last-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.copy-write {
+  font-size: 14px;
+  font-weight: 600px;
+}
+.privacy ul li {
+  display: inline-block;
+  padding: 0px 7px;
+  border-right: 1px solid #ccc;
+}
+
+.privacy ul li :last-child {
+  border-right: 0px;
+}
+.privacy a {
+  font-size: 0.6em;
+  text-decoration: none;
+  color: #515154;
+}
+.privacy a:hover {
+  text-decoration: underline;
+}
+.usa {
+  font-size: 14px;
+}
+
+/* Footer stayling ends here */
+
+/* Sections between header and footer */
+
+.first-sec {
+  text-align: center;
+  margin-top: 20px;
+  background: #fafafa;
+}
+.type {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.discription {
+  font-size: 2em;
+  font-weight: 200;
+}
+.more li {
+  display: inline-block;
+  padding-inline: 20px;
+}
+.more ul a {
+  text-decoration: none;
+  color: #06c;
+}
+.more ul a:hover {
+  color: black;
+}
+.model {
+  font-size: 0.85em;
+}
+.more ul a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 12px;
+}
+.second-higlight h2 {
+  color: white;
+  margin-top: 50px;
+}
+
+/* Second section */
+.second-higlight {
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.second-higlight h4 {
+  font-size: 0.85em;
+  color: #86868b;
+  padding-bottom: 10px;
+}
+.second-higlight h3 {
+  font-size: 26px;
+  padding: 10px 0;
+  color: white;
+}
+
+/* thierd section */
+
+.thierd-higlight {
+  background-color: #fafafa;
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  padding: 65px 20px;
+  background-repeat: no-repeat;
+}
+
+.thierd-higlight h4 {
+  font-size: 0.85em;
+  color: #86868b;
+  padding-bottom: 10px;
+}
+.thierd-higlight h3 {
+  font-size: 26px;
+  padding: 10px 0;
+}
+/* fourth section  starts here*/
+
+.fourt-internal-wraper {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+.part-1 {
+  height: 634px;
+  width: 655px;
+  text-align: center;
+  background-image: url(../images/home/watch-series-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part-1 img {
+  padding-top: 40px;
+}
+
+.part-1 ul {
+  display: flex;
+  list-style: none;
+  margin-top: 34px;
+  text-align: center;
+  padding-left: 35%;
+}
+.part-1 li {
+  padding-right: 30px;
+}
+.part-1 a {
+  text-decoration: none;
+  color: #06c;
+}
+.part-1 a:hover {
+  color: black;
+}
+pattern a:hover {
+  color: black;
+}
+.part-1 ul a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 12px;
+}
+.part-1 p {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 200px;
+}
+
+/* section four  styling*/
+
+.card {
+  background-image: url(../images/home/apple-card.jpg);
+}
+.card a:hover {
+  color: black;
+}
+.tv {
+  background-image: url(../images/home/apple-tv-background.jpg);
+}
+
+.tv .img-two {
+  margin-top: 150px;
+}
+.tv ul a:after {
+  content: "\f144";
+}
+.tv ul {
+  margin-top: 220px;
+  font-size: 0.8em;
+}
+.tv a {
+  color: #551a8b;
+}
+.right-side {
+  margin-top: 45px;
+}
+
+.AirPods h2 {
+  font-size: 56px;
+  color: white;
+}
+.AirPods p {
+  color: white;
+}
+.AirPods {
+  background-color: black;
+  background-image: url(../images/home/air-pods.jpg);
+  background-position: bottom;
+  background-size: initial;
+}
+.AirPods a:hover {
+  color: black;
+}
+
+.back-ground {
+  background-image: url(../images/home/new-ipad.jpg);
+}
+.back-ground a:hover {
+  color: black;
+}
+.part-2 {
+  text-align: center;
+  background-color: #fafafa;
+  width: 655px;
+  height: 634px;
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.part-2 ul {
+  padding-block: 20px;
+}
+.part-2 ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+.part-2 a {
+  text-decoration: none;
+  color: #06c;
+}
+.part-2 ul a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 12px;
+}
+.part-2 a:hover {
+  color: black;
+}
+.part-2 p {
+  padding-top: 80px;
+}
+/* stayling ends here */
